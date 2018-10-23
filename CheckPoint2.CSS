@@ -1,0 +1,498 @@
+body header{ 
+    margin: 0;
+padding: 0;
+background-color: white;
+font-size: 16px;
+font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif;
+color: #363945;
+-webkit-font-smoothing: antialiased;  
+
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 0px; 
+  }
+.the-main{
+    font-size: 16px;
+    font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif;
+    display: block;
+}
+.list { 
+    font-size: 15px;
+    display: inline-table;
+    font-weight: bold;
+    color: #6c798b;
+}
+a.lien:link, a.lien:visited {
+    color: #918b8b;
+    padding: 2px 10px; /* distance entre deux liens*/
+    text-align: center; 
+    text-decoration: solid ;
+    display: inline-block;
+}
+a.lien:hover, a.lien:active {
+    color: #111111;
+}
+.header-Hornavigationbar-list1-lien1{
+   
+    text-decoration: solid ;
+    color: #111111;
+    display: inline-block;
+}
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between ;
+    margin-top: 0%;
+    width: 100%;
+    height: 75%;
+  }
+.header-logo {
+width: 70%;
+ height: 100%;
+
+  }
+.header-Hornavigationbar
+{ position: relative;
+ width: 160%;
+ height: 100%;
+ border-right:1px solid #efefef;
+ border-left:1px solid #efefef;
+  }
+.header-menu1
+{ display:flex;
+ height: 100%;
+ width: 80%;
+  }
+.button2 {
+    background-color: rgb(255, 255, 255);
+    border:none;  
+     border-left: none;
+    border-top: none;
+    border-bottom: none;
+    margin-left: 0%;
+    text-decoration: none;
+    font-family: "Walsheim", sans-serif; 
+}
+.button2:hover {
+    background-color: #f9f9f9; 
+}
+
+.button1 {background-color: rgb(255, 255, 255);
+    border-right :1px solid #efefef;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Walsheim", sans-serif; 
+}
+.button1:hover {
+    background-color: #f9f9f9; 
+}
+a.login:link {
+    text-decoration: none;
+}
+
+a.login:visited {
+    text-decoration: none;
+}
+
+.header-Hornavigationbar-list2{
+
+    display: inline-block;
+    vertical-align: top;
+    background: #f9f9f9;
+    border-top: 1px solid #efefef; 
+    height:58%;
+    width: 94%;
+    margin-bottom: 0%;
+    padding-left: 20px ;
+    padding-right: 20px;
+}
+.header-Hornavigationbar-list1{
+    margin-bottom: 0%;
+    display: inline-block;
+    width: 100%;
+    height:58%;
+    padding: 2px 20px;
+}
+.signup{
+    background:url(user-plus.svg) no-repeat 20px 45px;
+color: blue;
+    font-style: italic bold ;
+    text-indent:40px;
+    display:inline-block;
+    padding: 45px 35px;
+    text-decoration: none;
+    font-family: "Walsheim", sans-serif; 
+}
+.login{
+    background:url(log-out.svg) no-repeat 20px 45px;
+    color : rgb(42, 42, 43); 
+    font-style: italic bold ;
+    text-indent:40px;
+    display:inline-block;
+    padding: 45px 35px;
+    font-family: "Walsheim", sans-serif; 
+}
+.soapbox{
+    display: inline-block;
+    border: none;
+  
+
+    background: #f9f9f9;
+    padding: 12px 17px;
+}
+.text-video{
+    text-align: left; 
+    text-decoration-style: italic bold ;
+    font-size: 30px;
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    color: white;
+}
+.text-video-noir{
+  color: black;
+}
+.button3 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .button3:hover {  background-color: white;
+    transform: scaleY(1.1);
+    box-shadow: 0 9px #999;
+
+  }
+  .button3:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .grid-item2{
+  margin-top: -10px;
+  width: 100%;
+
+  }
+
+.grid-item3 {
+    
+    display: flex;
+    flex-direction: row;
+    align-content: space-between ;
+    width: 100%;
+    height: 120%;
+margin-top: -1px;
+   }
+.Wistia-Hosting{ background-color: #FED24A;
+padding: 45px 40px 50px;
+display: flex;
+flex-flow: row wrap;
+
+}
+.text-WistiaHosting  { 
+ font-family: "Walsheim", sans-serif; 
+      color: #fff;
+}   
+h2 {
+    font-weight: bold;
+}
+.soustext-WistiaHosting{
+    display: block;
+    align-self: flex-end;
+text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+   font-family: "Walsheim", sans-serif;
+   color: #363945;
+   -webkit-font-smoothing: antialiased;
+
+}
+.soustext-WistiaHosting::selection{
+    background: #3ea9f5;
+    color: white;
+
+}
+.button4 {
+    background-color: transparent;
+    font-family: "Walsheim", sans-serif;
+    border-color: rgba(255,255,255,0.55);
+    border: 2px solid white;
+    color: #2A2D35;
+    padding: 17px 16px;
+    font-size: 17px;
+    text-align: center ;
+    transition: 0.3s;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600 ;
+    font-style: italic bold ;
+ position: absolute;
+ text-decoration: none;
+  }
+  .button4:hover {
+    background-color: white; 
+  }
+  .Soapbox-fast{ background-color: #51C29F;
+    padding: 45px 58px 50px;
+display: flex;
+flex-flow: row wrap;
+  }
+  .video-skills{
+    background-color: #3ea9f5;
+    padding: 45px 58px 50px;
+display: flex;
+flex-flow: row wrap;
+  }
+  .lien-analytics{
+  color: #363945;
+  text-decoration: underline;
+  line-height: 30px;
+  font-size: 20px;
+}
+a.lien-analytics:hover {
+  
+    text-decoration: none;
+
+  }
+.icon-svg {
+flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    position:absolute;
+}
+.grid-item4 {
+ 
+    display: flex;
+    flex-direction: row;
+    align-content: space-between ;
+margin-top: 10%;
+margin-bottom: 5%;
+    width: 100%;
+    
+   }
+.grid-item4-text{ 
+    margin-right: 5%;  
+    margin-left: 5%;
+    max-width: 160px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #9CA8B7;
+    padding: 0 30px;
+}
+.grid-item4-text::selection{    background: #3ea9f5;
+    color: white;
+}
+.grid-item5{   
+ 
+    flex: 4 1 200px;
+    padding: 30px 20px;
+    /* display: flex;
+    flex-flow: row wrap;
+    align-items: stretch; */
+    display: flex;
+    flex-direction: row;
+    align-content: space-between ;
+    height: 50%;
+ 
+}
+.grid-item5-blocs{ 
+    font-family: "Walsheim", sans-serif;  
+    line-height: 28px;
+    margin-bottom: 15px;
+display: flex;
+flex-flow: row wrap;
+padding: 0 20px;
+align-items: center;
+
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 70px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.grid-item5-bloc1-image{
+
+    flex: 1 1 220px;
+    padding: 0 15px;
+    max-width: 100%;
+}
+.grid-item5-bloc1-text{ 
+    display: block;
+    line-height: 28px;
+    margin-bottom: 30px;
+    flex: 2 1 550x;
+    color: #adb5d4;
+    font-size: 16px;
+    position: relative;
+    }
+.grid-item5-bloc1-soustext{
+    color: #363945;
+    font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 3px; 
+        font-family: "Walsheim", sans-serif;
+    /* padding: 2px 30px; */
+    padding-inline-start: 20px;
+    position: relative;
+    margin-right: 0%;
+    }
+
+div {
+    display: block;
+} 
+.grid-item5-bloc1-titre{
+line-height: 26px;
+color: #363945;
+-webkit-font-smoothing: antialiased;
+margin: 10px 15px;
+position: relative;}
+
+a.grid-item5-bloc1-lien {
+    
+    cursor: pointer;
+    text-decoration: underline ;
+    font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif;
+    font-size: 16px;
+    padding-inline-start: 50px;
+    display:inline-block;
+}
+a.grid-item5-bloc1-lien:visited, a.grid-item5-bloc1-lien:hover{ 
+    cursor: pointer;
+    text-decoration: none ;
+    font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif;
+   
+
+}
+
+.grid-item6 {
+    display:block;
+  margin-top: 0%;
+    color: #777777;
+    font-size: 18px;
+    padding: 25px 510px;
+    text-align: center;
+    background-color: #e8e7e6;
+ 
+     }
+.grid-item6-link {
+ 
+        color: #777777;
+        cursor: pointer;    
+        text-decoration: underline;
+        text-align: center;
+        font-size: 18px;
+        font-family: "Walsheim", sans-serif;
+    }
+.footer_container{
+    display:block;
+
+ z-index: 100;     /*The z-index property specifies the stack order of an element. */
+    height: 100%;
+    position: relative;
+    padding: 47px 60px 25px;
+    font-family: "Walsheim", sans-serif;
+    color: white;
+}
+.definition{
+    font-size: 1.6em;
+    line-height: 1.3em;
+    font-weight: 500;
+    width: 70%;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.wistia-logo{
+border: 0;    
+}
+
+ footer, header, main, nav, section {
+    display: block;
+}
+footer{
+    text-align: center;
+    background: #2A2D35;
+}
+.footer_container .links {
+    
+    margin: 0 2em;
+  display: flex;
+}
+footer .footer_container ul {
+    margin-top: 0px;
+    list-style-type: none;
+    padding-left: 0px;}
+
+    footer .footer_container .footer--copyright {
+        color: #9CA8B7;
+        margin: 3em 0;
+        text-align: center;
+        font-weight: 500;
+        font-size: 17px;
+    }
+    footer .footer_container .logo {
+        flex: 3;
+        font-family: "Walsheim", sans-serif;
+        text-align: left;
+        padding-right: 1em;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        -webkit-font-smoothing: antialiased;
+    }
+.footer-wistia-links{
+    color: #3ea9f5;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+    footer a {
+        color: #b2b9c1;
+        text-decoration: none;
+    }
+    .footer-list {
+        line-height: 22px;
+        font-size: 16px;
+        text-decoration: none;
+        padding-inline-start: 100px;
+    }
+.footer-ul{
+        display: list-item;
+        text-align: -webkit-match-parent;
+        list-style-type: none;
+        margin-top: 11px;
+        text-decoration: none;
+        -webkit-font-smoothing: antialiased;
+        }
+a.footer-list:hover {
+        text-decoration: underline ;
+    }
+a.footer-wistia-links:hover {
+        text-decoration: underline ;
+    }
+footer a:hover {
+        text-decoration: underline ;
+    }
+.footer--social span{
+    font-size: 1.2em;
+
+}
